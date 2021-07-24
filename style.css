@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;1,800&display=swap');
+
+:root{
+    --primary-color:#00BFA6;
+
+    --secondary-color:#6B7280;
+    --gray:gray;
+    --white:white;
+    --offwhite:#D1FAE5;
+}
+
+body{
+    font-family: 'JetBrains Mono', monospace;
+}
+hr{
+    margin:2rem  0rem;
+}
+.container{
+    padding-left: 1rem ;
+    padding-right: 1rem;
+}
+.normal{
+max-width: 600px;
+margin: auto;
+}
+
+/** Links **/
+.link{
+    text-decoration: none;
+    padding:0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+.primary-link{
+    background-color: var(--primary-color);
+    color:white;
+}
+.secondary-link{
+    color: var(--secondary-color);
+    border:solid var(--primary-color) 1px;
+}
+
+/** Lists **/
+.list-non-bullets{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding:0rem 0.5rem;
+}
+/** navigation **/
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+/** Header **/
+.hero{
+    padding:2rem 0rem;
+}
+.hero-image{
+    max-width: 350px;
+    display: block;
+    margin:auto; 
+}
+.hero .hero-heading{
+    text-align: center;
+    font-size: 2rem;
+    padding:0.5rem;
+    color:var(--gray);
+}
+
+/** Section **/
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+
+}
+
+.ow {
+    background-color: var(--offwhite);
+}
+
+/** footers **/
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 4rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+.footer a{
+    font-weight: bolder;
+}
