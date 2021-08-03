@@ -4,76 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Porfolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navigation container">
-        <div class="nav-brand">BhanuNayak</div>
-        <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline">
-                <a class="link link-active" href="index.html">home</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="projects.html">projects</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="blogs.html">blogs</a>
-            </li>
+    <!-- navigation bar -->
+    <div class="navhead">
+        <h3 class="myname" id="myname">BhanuNayak</h3>
+        <ul class="nav-buttons">
+            <li class="nav-button-1"><a id="button" href="index.html">Home</a></li>
+            <li class="nav-button-1"><a id="button" href="#">Projects</a></li>
+            <li class="nav-button-1"><a id="button" href="#">Blog</a></li>
         </ul>
-    </nav>
+    </div>
+    <!-- header -->
+    <div class="main">
+        <img src="/images/main.svg" alt="image unable to load">
+        <h1 class="header">I am a junior <span class="color">Web Developer</span></h1>
+        <p class="header-description">I am Btech 2nd year Student</p>
+    </div>
+    <!-- body -->
+    <div class="skills">
+        <h3 class="skills-header">Skills</h3>
+        <p>I'm Familiar with HTML5,CSS3,Git,JavaScript,NodeJS,ReactJS, and Web Hosting</p>
+    </div>
 
-    <header class="hero">
-        <img class="hero-image" src="images/mylogo.svg" />
-        <h1 class="hero-heading">I am a junior <span style="color:var(--primary-color)">
-                Web Developer. </span>
-        </h1>
-    </header>
+    <div class="projects">
+        <h3 class="projects-header">Projects</h3>
+        <p>Here are some of my work, You should take a look on these, and please feel free to give suggestions</p>
+        <a href="#" class="button-2">PROJECTS</a>
+    </div>
 
-    <section class="section ow">
-        <div class="container container-center">
-            <h1>technologies</h1>
-            <p>I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and Web Hosting</p>
+    <div class="blogs">
+        <h3 class="blog-header">Blogs</h3>
+        <p>Here is the documents of my learning journey, some things which i have written on, you should have a look </p>
+        <a href="#" class="button-2">BLOGS</a>
+    </div>
+    
+    <div class="footer-main">
+        <!-- footer -->
+        <h4 class="footer">Social Media</h4>
+        <!-- socials -->
+        <div class="socialbuttons">
+            <ul class="social">
+                <li class="handles"><a id="handles" href="#">github</a></li>
+                <li class="handles"><a id="handles" href="#">twitter</a></li>
+                <li class="handles"><a id="handles" href="#">linkedin</a></li>
+                <li class="handles"><a id="handles" href="#">Facebook</a></li>
+                <li class="handles"><a id="handles" href="#">instagram</a></li>
+            </ul>
         </div>
-    </section>
+    </div>
 
-    <section class="section">
-        <div class="container container-center">
-            <h1>projects</h1>
-            <p>I like to showcase my work and thus, you can see my projects hosted online</p>
-            <a class="primary-link link" href="/">Projects</a>
-        </div>
-    </section>
-
-    <section class="section ow">
-        <div class="container container-center">
-            <h1>blogs</h1>
-            <p>I am also working on some technical and non techincal blogs. I like to document my journey of learning.
-            </p>
-            <a class="secondary-link link" href="#">Blogs</a>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="footer-header">social media presence</div>
-        <ul class="social-links list-non-bullet">
-            <li class="list-item-inline">
-                <a class="link" href="/">
-                    github
-                </a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="/">
-                    twitter
-                </a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="/">
-                    linkedin
-                </a>
-            </li>
-
-        </ul>
-    </footer>
 </body>
 </html>
